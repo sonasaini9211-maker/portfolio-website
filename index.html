@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- SEO & Student Developer Metadata -->
+  <title>Soniya Saini | Student Developer | AI/ML Enthusiast</title>
+  <meta name="description" content="Portfolio of Soniya Saini - Computer Science Engineering Student & AI/ML Enthusiast specializing in Machine Learning, Generative AI, Python Development, and Data Analytics." />
+  <meta name="keywords" content="Soniya Saini, Student Developer, CSE Student, AI/ML Enthusiast, Python, Flask, Parul Institute of Technology" />
+  <meta name="author" content="Soniya Saini" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sonasaini9211-maker.github.io/" />
+  <meta property="og:title" content="Soniya Saini | Student Developer | AI/ML Enthusiast" />
+  <meta property="og:description" content="Computer Science Engineering Student & AI/ML Enthusiast specializing in Machine Learning, Generative AI, Python Development, and Data Analytics." />
+  <meta property="og:image" content="https://sonasaini9211-maker.github.io/sona.jpeg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://sonasaini9211-maker.github.io/" />
+  <meta property="twitter:title" content="Soniya Saini | Student Developer | AI/ML Enthusiast" />
+  <meta property="twitter:description" content="Computer Science Engineering Student & AI/ML Enthusiast specializing in Machine Learning, Generative AI, Python Development, and Data Analytics." />
+  <meta property="twitter:image" content="https://sonasaini9211-maker.github.io/sona.jpeg" />
+
+  <!-- Schema.org Person JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Soniya Saini",
+    "jobTitle": "Student Developer, AI/ML Enthusiast",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Parul Institute of Technology"
+    },
+    "url": "https://sonasaini9211-maker.github.io/",
+    "sameAs": [
+      "https://github.com/sonasaini9211-maker",
+      "https://linkedin.com/in/soniya-saini-6a48bb340"
+    ]
+  }
+  </script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- JS Config -->
+  <script src="emailjs_config.js" defer></script>
+  
+  <!-- JS Script -->
+  <script src="script.js" defer></script>
+  
+  <!-- EmailJS Integration -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- 1. Premium Loading Screen -->
+  <div id="loader">
+    <div class="loader-content">
+      <div class="loader-network">
+        <div class="loader-node n1"></div>
+        <div class="loader-node n2"></div>
+        <div class="loader-node n3"></div>
+        <div class="loader-line l1"></div>
+        <div class="loader-line l2"></div>
+      </div>
+      <h2>SONIYA SAINI</h2>
+      <p>Initializing AI Sandbox...</p>
+      <div class="loader-bar-container">
+        <div class="loader-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="scroll-bar"></div>
+  </div>
+
+  <!-- Custom Cursor Glow -->
+  <div class="cursor-glow-container">
+    <div class="cursor-glow-outer" id="cursor-glow-outer"></div>
+    <div class="cursor-glow-inner" id="cursor-glow-inner"></div>
+  </div>
+
+  <!-- Background Glowing Blobs -->
+  <div class="blob-container">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo">SONIYA <span>SAINI</span></a>
+      
+      <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="./Soniya_Saini_Resume.pdf" download="Soniya_Saini_Resume.pdf" class="btn-header-resume">
+              <i class="fa-solid fa-download"></i> Resume
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 2. Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-canvas-container">
+      <canvas id="hero-canvas"></canvas>
+    </div>
+    
+    <div class="hero-grid">
+      <div class="hero-left hero-fade-up">
+        <div class="hero-tag">
+          <i class="fa-solid fa-atom"></i>
+          <span>AI Sandbox Active</span>
+        </div>
+        <span class="hero-greeting">WELCOME TO MY LABORATORY</span>
+        <h1>Hi, I'm <br><span class="text-gradient">Soniya Saini</span></h1>
+        
+        <div class="hero-subtitle">
+          <span id="typewriter"></span>
+          <span class="typewriter-cursor"></span>
+        </div>
+        
+        <p class="hero-description">
+          AI/ML Enthusiast and Computer Science Engineering student with hands-on experience in Machine Learning, Generative AI, Flask Development, Data Analytics, and Project Management tools.
+        </p>
+        
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary btn-shimmer">
+            <i class="fa-solid fa-flask"></i> View Projects
+          </a>
+          <a href="./Soniya_Saini_Resume.pdf" download="Soniya_Saini_Resume.pdf" class="btn-secondary">
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
+          <a href="#contact" class="btn-tertiary">
+            Contact Me <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        
+        <div class="metrics-row">
+          <div class="metric-item">
+            <span class="metric-value counter-value" data-target="7">0</span>
+            <span class="metric-plus">+</span>
+            <span class="metric-label">Projects Built</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-value counter-value" data-target="7">0</span>
+            <span class="metric-plus">+</span>
+            <span class="metric-label">Certifications Earned</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-value counter-value" data-target="98">0</span>
+            <span class="metric-plus">%</span>
+            <span class="metric-label">Model Accuracy</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-right hero-fade-up">
+        <div class="hologram-viewport">
+          <!-- Concentric Orbit Rings -->
+          <div class="orbit-ring ring-1"></div>
+          <div class="orbit-ring ring-2"></div>
+          <div class="orbit-ring ring-3"></div>
+          
+          <!-- Holographic Circular Profile Scanner -->
+          <div class="hologram-profile-container">
+            <div class="hologram-circular-scanner">
+              <img src="ai_workspace_scene.png" alt="Soniya Saini" class="hologram-image" />
+              <div class="scanner-overlay"></div>
+              <div class="scanner-line"></div>
+            </div>
+            <!-- Crosshairs -->
+            <div class="crosshair ch-tl"></div>
+            <div class="crosshair ch-tr"></div>
+            <div class="crosshair ch-bl"></div>
+            <div class="crosshair ch-br"></div>
+          </div>
+          
+          <!-- Orbiting Widget: Floating Code -->
+          <div class="hologram-widget glass-panel widget-code float-delay-1">
+            <div class="widget-header">
+              <span class="widget-dot color-p"></span>
+              <span class="widget-title">sandbox_init.py</span>
+            </div>
+            <pre><code>import tensorflow as tf
+model = tf.keras.Sequential()
+model.add(tf.keras.layers.Dense(64))</code></pre>
+          </div>
+          
+          <!-- Orbiting Widget: AI Status -->
+          <div class="hologram-widget glass-panel widget-status float-delay-2">
+            <div class="widget-header">
+              <span class="status-indicator-dot online"></span>
+              <span class="widget-title">SYSTEM STATUS</span>
+            </div>
+            <div class="status-row">
+              <span>SYS:</span> <span class="text-gradient">ONLINE</span>
+            </div>
+            <div class="status-metrics">
+              <div>LOSS: <span class="metric-num">0.024</span></div>
+              <div>ACC: <span class="metric-num">0.98</span></div>
+            </div>
+          </div>
+          
+          <!-- Orbiting Widget: Neural Graph -->
+          <div class="hologram-widget glass-panel widget-net float-delay-3">
+            <div class="widget-header">
+              <span class="widget-dot color-p"></span>
+              <span class="widget-title">NEURAL CONNECTION</span>
+            </div>
+            <svg class="neural-svg" viewBox="0 0 100 60">
+              <line class="net-line active-line" x1="15" y1="30" x2="50" y2="15" />
+              <line class="net-line active-line" x1="15" y1="30" x2="50" y2="45" />
+              <line class="net-line" x1="50" y1="15" x2="85" y2="30" />
+              <line class="net-line active-line" x1="50" y1="45" x2="85" y2="30" />
+              <circle class="node-dot active-node" cx="15" cy="30" r="4" />
+              <circle class="node-dot active-node" cx="50" cy="15" r="4" />
+              <circle class="node-dot active-node" cx="50" cy="45" r="4" />
+              <circle class="node-dot active-node" cx="85" cy="30" r="4" />
+            </svg>
+          </div>
+          
+          <!-- Orbiting Widget: Chart -->
+          <div class="hologram-widget glass-panel widget-chart float-delay-4">
+            <div class="widget-header">
+              <span class="widget-dot color-p"></span>
+              <span class="widget-title">VAL_ACCURACY</span>
+            </div>
+            <div class="chart-header">
+              <span>Epoch training</span>
+              <span class="green-text">98%</span>
+            </div>
+            <svg class="mini-chart-svg" viewBox="0 0 100 20">
+              <path d="M0 18 Q 20 12, 40 15 T 80 5 T 100 2" fill="none" stroke="#3b82f6" stroke-width="1.5" />
+            </svg>
+          </div>
+          
+          <!-- Floating Data Streams -->
+          <div class="data-stream-item item-1">LOSS: 0.024</div>
+          <div class="data-stream-item item-2">EPOCH: 48/50</div>
+          <div class="data-stream-item item-3">GEN_AI_MODEL</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Trusted Technologies Section -->
+  <section class="marquee-section reveal">
+    <h2 class="marquee-title">Trusted Technologies & Frameworks</h2>
+    <div class="marquee-container">
+      <div class="marquee-track">
+        <div class="marquee-badge"><i class="fa-brands fa-python"></i> Python</div>
+        <div class="marquee-badge"><i class="fa-solid fa-brain"></i> Machine Learning</div>
+        <div class="marquee-badge"><i class="fa-solid fa-microchip"></i> Generative AI</div>
+        <div class="marquee-badge"><i class="fa-solid fa-server"></i> Flask</div>
+        <div class="marquee-badge"><i class="fa-solid fa-chart-line"></i> Scikit-Learn</div>
+        <div class="marquee-badge"><i class="fa-solid fa-table"></i> Pandas</div>
+        <div class="marquee-badge"><i class="fa-solid fa-calculator"></i> NumPy</div>
+        <div class="marquee-badge"><i class="fa-solid fa-database"></i> MongoDB</div>
+        <div class="marquee-badge"><i class="fa-solid fa-database"></i> MySQL</div>
+        <div class="marquee-badge"><i class="fa-brands fa-github"></i> GitHub</div>
+        
+        <!-- Double for infinite marquee effect -->
+        <div class="marquee-badge"><i class="fa-brands fa-python"></i> Python</div>
+        <div class="marquee-badge"><i class="fa-solid fa-brain"></i> Machine Learning</div>
+        <div class="marquee-badge"><i class="fa-solid fa-microchip"></i> Generative AI</div>
+        <div class="marquee-badge"><i class="fa-solid fa-server"></i> Flask</div>
+        <div class="marquee-badge"><i class="fa-solid fa-chart-line"></i> Scikit-Learn</div>
+        <div class="marquee-badge"><i class="fa-solid fa-table"></i> Pandas</div>
+        <div class="marquee-badge"><i class="fa-solid fa-calculator"></i> NumPy</div>
+        <div class="marquee-badge"><i class="fa-solid fa-database"></i> MongoDB</div>
+        <div class="marquee-badge"><i class="fa-solid fa-database"></i> MySQL</div>
+        <div class="marquee-badge"><i class="fa-brands fa-github"></i> GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Featured Achievement Banner -->
+  <section class="banner-section reveal">
+    <div class="banner-container glass-panel">
+      <div class="banner-header">
+        <h3>Building AI-powered applications that solve real-world problems.</h3>
+      </div>
+      
+      <div class="banner-grid">
+        <div class="banner-stat">
+          <div class="stat-num"><span class="counter-value" data-target="7">0</span><span class="stat-plus">+</span></div>
+          <p>Projects Built</p>
+        </div>
+        <div class="banner-stat">
+          <div class="stat-num"><span class="counter-value" data-target="7">0</span><span class="stat-plus">+</span></div>
+          <p>Certifications Earned</p>
+        </div>
+        <div class="banner-stat">
+          <div class="stat-val"><span class="text-gradient">Google Challenge</span></div>
+          <p>Solution Challenge Participant</p>
+        </div>
+        <div class="banner-stat">
+          <div class="stat-val"><span class="text-gradient">B.Tech CSE</span></div>
+          <p>2023–2027 Student</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Professional Summary -->
+  <section class="summary-section reveal">
+    <div class="summary-card glass-panel spotlight-card">
+      <p>
+        AI/ML Enthusiast and Computer Science Engineering student with hands-on experience in Machine Learning, Generative AI, Flask Development, Data Analytics, and Project Management tools. Passionate about building intelligent applications, solving real-world problems, and continuously learning emerging AI technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- 6. About Me Bento Grid -->
+  <section id="about" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">BACKGROUND</span>
+      <h2>About <span>Me</span></h2>
+      <p>An aspiring AI Engineer passionate about solving problems with data and intelligent systems.</p>
+    </div>
+    
+    <div class="bento-grid">
+      <!-- Main Info -->
+      <div class="bento-card bento-card-1 glass-panel spotlight-card tilt-card reveal-item">
+        <div>
+          <div class="bento-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3>Aspiring AI Developer</h3>
+        </div>
+        <p class="bento-about-text">
+          I am currently pursuing my B.Tech in Computer Science Engineering at Parul Institute of Technology. I focus on Machine Learning algorithms, Large Language Models, Generative AI APIs, and Flask backend development. I enjoy taking ideas from concept to reality, building applications like ReliefAI and the AI Career Agent to tackle practical problems.
+        </p>
+      </div>
+      
+      <!-- Education -->
+      <div class="bento-card bento-card-2 glass-panel spotlight-card tilt-card reveal-item">
+        <div>
+          <div class="bento-icon"><i class="fa-solid fa-university"></i></div>
+          <h3>Education & Metrics</h3>
+        </div>
+        <div class="education-timeline" style="display: flex; flex-direction: column; gap: 12px; margin-top: 15px; text-align: left;">
+          <!-- B.Tech -->
+          <div class="edu-item">
+            <h4 style="font-size: 14px; font-weight: 600; color: var(--text-primary); margin-bottom: 2px;">🎓 B.Tech in Computer Science Engineering</h4>
+            <p style="font-size: 12px; color: var(--text-secondary); margin-bottom: 4px;">Parul Institute of Technology, Vadodara, Gujarat</p>
+            <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-secondary);">
+              <span class="edu-date">2023 - 2027</span>
+              <span class="edu-cgpa" style="color: #60a5fa; font-weight: 500;">CGPA: 7.26 / 10</span>
+            </div>
+          </div>
+          <!-- Class XII -->
+          <div class="edu-item" style="border-top: 1px solid rgba(255, 255, 255, 0.05); padding-top: 8px;">
+            <h4 style="font-size: 14px; font-weight: 600; color: var(--text-primary); margin-bottom: 2px;">📖 Higher Secondary (Class XII)</h4>
+            <p style="font-size: 12px; color: var(--text-secondary); margin-bottom: 4px;">Board: RBSE | Sikar, Rajasthan, India</p>
+            <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-secondary);">
+              <span>Secondary Education</span>
+              <span class="edu-percentage" style="color: #60a5fa; font-weight: 500;">Percentage: 81.40%</span>
+            </div>
+          </div>
+          <!-- Class X -->
+          <div class="edu-item" style="border-top: 1px solid rgba(255, 255, 255, 0.05); padding-top: 8px;">
+            <h4 style="font-size: 14px; font-weight: 600; color: var(--text-primary); margin-bottom: 2px;">📖 Secondary (Class X)</h4>
+            <p style="font-size: 12px; color: var(--text-secondary); margin-bottom: 4px;">Board: RBSE | Sikar, Rajasthan, India</p>
+            <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-secondary);">
+              <span>Secondary Schooling</span>
+              <span class="edu-percentage" style="color: #60a5fa; font-weight: 500;">Percentage: 90.00%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Location -->
+      <div class="bento-card bento-card-3 glass-panel spotlight-card tilt-card reveal-item">
+        <div>
+          <div class="bento-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <h3>Base Location</h3>
+        </div>
+        <p>Based in Sikar, Rajasthan, India. Open to remote collaboration and student developer internships.</p>
+      </div>
+      
+      <!-- Interests -->
+      <div class="bento-card bento-card-4 glass-panel spotlight-card tilt-card reveal-item">
+        <div>
+          <div class="bento-icon"><i class="fa-solid fa-star"></i></div>
+          <h3>Core Interests</h3>
+        </div>
+        <ul class="facts-list">
+          <li><i class="fa-solid fa-circle-play"></i> Machine Learning Models & Flask Deployment</li>
+          <li><i class="fa-solid fa-circle-play"></i> Building Generative AI & LLM Assistants</li>
+          <li><i class="fa-solid fa-circle-play"></i> Data Analytics with Pandas & NumPy</li>
+        </ul>
+        <div class="focus-areas-container">
+          <span class="focus-badge">Natural Language Processing</span>
+          <span class="focus-badge">Model Optimization</span>
+          <span class="focus-badge">API Integration</span>
+          <span class="focus-badge">Open Source</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Technical Skills Section -->
+  <section id="expertise" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">CAPABILITIES</span>
+      <h2>Technical <span>Skills</span></h2>
+      <p>A structured breakdown of my core technical competencies and focus areas as a student developer.</p>
+    </div>
+    
+    <div class="expertise-grid">
+      <!-- Programming -->
+      <div class="expertise-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="expertise-icon"><i class="fa-solid fa-code"></i></div>
+        <h3>Programming</h3>
+        <div class="skills-pills">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">Java</span>
+          <span class="skill-pill">SQL</span>
+        </div>
+      </div>
+      
+      <!-- AI & Machine Learning -->
+      <div class="expertise-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="expertise-icon"><i class="fa-solid fa-brain"></i></div>
+        <h3>AI & Machine Learning</h3>
+        <div class="skills-pills">
+          <span class="skill-pill">Machine Learning</span>
+          <span class="skill-pill">Scikit-learn</span>
+          <span class="skill-pill">Pandas</span>
+          <span class="skill-pill">NumPy</span>
+          <span class="skill-pill">NLP</span>
+        </div>
+      </div>
+      
+      <!-- Web Development -->
+      <div class="expertise-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="expertise-icon"><i class="fa-solid fa-laptop-code"></i></div>
+        <h3>Web Development</h3>
+        <div class="skills-pills">
+          <span class="skill-pill">Flask</span>
+          <span class="skill-pill">HTML5</span>
+          <span class="skill-pill">CSS3</span>
+          <span class="skill-pill">REST APIs</span>
+        </div>
+      </div>
+      
+      <!-- Databases -->
+      <div class="expertise-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="expertise-icon"><i class="fa-solid fa-database"></i></div>
+        <h3>Databases</h3>
+        <div class="skills-pills">
+          <span class="skill-pill">MySQL</span>
+          <span class="skill-pill">MongoDB</span>
+        </div>
+      </div>
+      
+      <!-- Project Management -->
+      <div class="expertise-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="expertise-icon"><i class="fa-solid fa-diagram-project"></i></div>
+        <h3>Project Management</h3>
+        <div class="skills-pills">
+          <span class="skill-pill">Jira</span>
+          <span class="skill-pill">Trello</span>
+          <span class="skill-pill">Agile / Scrum</span>
+          <span class="skill-pill">Power BI</span>
+          <span class="skill-pill">Excel Reporting</span>
+        </div>
+      </div>
+      
+      <!-- Tools -->
+      <div class="expertise-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="expertise-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+        <h3>Tools & Soft Skills</h3>
+        <div class="skills-pills">
+          <span class="skill-pill">Git</span>
+          <span class="skill-pill">GitHub</span>
+          <span class="skill-pill">VS Code</span>
+          <span class="skill-pill">Jupyter Notebook</span>
+          <span class="skill-pill">Problem Solving</span>
+          <span class="skill-pill">Team Collaboration</span>
+        </div>
+      </div>
+      
+      <!-- Core Subjects -->
+      <div class="expertise-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="expertise-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h3>Core Subjects</h3>
+        <div class="skills-pills">
+          <span class="skill-pill">DSA</span>
+          <span class="skill-pill">DBMS</span>
+          <span class="skill-pill">OS</span>
+          <span class="skill-pill">Computer Networks</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. What I Build -->
+  <section class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">APPLICATIONS</span>
+      <h2>What I <span>Build</span></h2>
+      <p>Focusing my development on these target solution categories.</p>
+    </div>
+    
+    <div class="build-grid">
+      <div class="build-card glass-panel spotlight-card tilt-card reveal-item">
+        <i class="fa-solid fa-robot"></i>
+        <h4>Intelligent Agents</h4>
+      </div>
+      <div class="build-card glass-panel spotlight-card tilt-card reveal-item">
+        <i class="fa-solid fa-heart-pulse"></i>
+        <h4>Social Impact Tech</h4>
+      </div>
+      <div class="build-card glass-panel spotlight-card tilt-card reveal-item">
+        <i class="fa-solid fa-chart-column"></i>
+        <h4>Predictive Dashboards</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Featured Project -->
+  <section class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">FLAGSHIP SHOWCASE</span>
+      <h2>Featured <span>Project</span></h2>
+      <p>My collaborative integration of Flask development and Generative AI services.</p>
+    </div>
+    
+    <div class="featured-project-large glass-panel spotlight-card tilt-card reveal-item">
+      <div class="featured-large-grid">
+        <div class="featured-large-visual">
+          <img src="project_career_agent.png" alt="AI Career Agent Screenshot">
+          <div class="featured-large-overlay"></div>
+        </div>
+        
+        <div class="featured-large-content">
+          <span class="featured-large-tag"><i class="fa-solid fa-users"></i> TEAM PROJECT</span>
+          <h3>AI Career Agent</h3>
+          <p class="featured-desc">
+            An advanced web application built collaboratively to assist job seekers in career roadmap generation, resume analysis, and interview preparation. Utilizing Google Generative AI APIs for customized recommendations.
+          </p>
+          
+          <div class="case-study-details">
+            <div class="case-study-field">
+              <strong><i class="fa-solid fa-code-branch"></i> Individual Role:</strong>
+              <span>Backend & AI Integration Developer</span>
+            </div>
+            <div class="case-study-field">
+              <strong><i class="fa-solid fa-users-gear"></i> Collaboration:</strong>
+              <span>Co-developed in a team of 3 developers, collaborating on design and integration.</span>
+            </div>
+            <div class="case-study-field">
+              <strong><i class="fa-solid fa-keyboard"></i> My Contributions:</strong>
+              <span>Architected the Flask backend APIs, normalized user resume text input, and designed LLM system prompts for custom roadmap formatting.</span>
+            </div>
+            <div class="case-study-field">
+              <strong><i class="fa-solid fa-screwdriver-wrench"></i> Technologies:</strong>
+              <span>Python, Flask, Generative AI APIs, HTML, CSS, JavaScript</span>
+            </div>
+            <div class="case-study-field">
+              <strong><i class="fa-solid fa-bullseye"></i> Key Challenge:</strong>
+              <span>Designing custom semantic roadmaps and processing complex resume data through LLM prompts dynamically.</span>
+            </div>
+            <div class="case-study-field">
+              <strong><i class="fa-solid fa-circle-check"></i> Impact:</strong>
+              <span>Generates tailored learning roadmaps and highlights resume shortcomings in under 3 seconds.</span>
+            </div>
+          </div>
+          
+          <div class="project-actions">
+            <a href="https://github.com/VivekKumar-Git-Hub/ImpactProject" target="_blank" class="btn-small-primary" title="Repository maintained by the project team.">
+              <i class="fa-brands fa-github"></i> Team GitHub
+            </a>
+            <span class="btn-small-secondary" style="cursor: not-allowed; opacity: 0.5;">
+              <i class="fa-solid fa-link"></i> Live Demo (Internal Sandbox)
+            </span>
+          </div>
+          <p class="repo-caption" style="font-size: 11px; color: var(--text-secondary); margin-top: 8px; opacity: 0.8; display: flex; align-items: center; gap: 5px;"><i class="fa-solid fa-circle-info"></i> Repository maintained by the project team.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. Project Portfolio Case Studies -->
+  <section id="projects" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">PROJECT HUB</span>
+      <h2>GitHub <span>Showcase</span></h2>
+      <p>Explore my full catalog of machine learning models, semantic applications, and student projects.</p>
+    </div>
+    
+    <div class="projects-grid">
+      <!-- Project 1: AI Career Agent -->
+      <div class="project-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="project-image-container">
+          <img src="project_career_agent.png" alt="AI Career Agent">
+        </div>
+        <div class="project-card-content">
+          <div class="project-badge-container">
+            <span class="tech-badge badge-team"><i class="fa-solid fa-users"></i> Team Project</span>
+          </div>
+          <h3>1. AI Career Agent</h3>
+          <p class="project-summary">Co-developed an AI-powered Career Agent in collaboration with a team using Flask, Generative AI APIs, and AI workflows.</p>
+          
+          <div class="project-details-grid">
+            <div class="project-detail-item"><strong>My Contribution:</strong> Designed and implemented Flask backend APIs, normalized user resume text input, and designed LLM system prompts for custom roadmap formatting.</div>
+            <div class="project-detail-item"><strong>Challenge:</strong> Slow manual ATS resume auditing and career roadmap creation.</div>
+            <div class="project-detail-item"><strong>Solution:</strong> LLM prompt engineering pipelines and custom semantic roadmaps.</div>
+            <div class="project-detail-item"><strong>Results:</strong> Detailed ATS reviews and custom roadmaps delivered in under 3s.</div>
+          </div>
+
+          <div class="tech-badges">
+            <span class="tech-badge">Flask</span>
+            <span class="tech-badge">Generative AI</span>
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">HTML/CSS</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/VivekKumar-Git-Hub/ImpactProject" target="_blank" class="btn-small-primary" title="Repository maintained by the project team.">
+              <i class="fa-brands fa-github"></i> Team GitHub
+            </a>
+          </div>
+          <p class="repo-caption" style="font-size: 11px; color: var(--text-secondary); margin-top: 8px; opacity: 0.8; display: flex; align-items: center; gap: 5px;"><i class="fa-solid fa-circle-info"></i> Repository maintained by the project team.</p>
+        </div>
+      </div>
+      
+      <!-- Project 2: ReliefAI -->
+      <div class="project-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="project-image-container">
+          <img src="ai_workspace_bg.png" alt="ReliefAI">
+        </div>
+        <div class="project-card-content">
+          <h3>2. ReliefAI</h3>
+          <p class="project-summary">Designed and implemented a smart disaster response platform for the Google Solution Challenge Build with AI Hackathon to coordinate relief assets and map shelters.</p>
+          
+          <div class="project-details-grid">
+            <div class="project-detail-item"><strong>Challenge:</strong> Uncoordinated asset distribution and shelter mapping in disasters.</div>
+            <div class="project-detail-item"><strong>Solution:</strong> Interactive AI routing algorithms and geolocation mapping portals.</div>
+            <div class="project-detail-item"><strong>Features:</strong> Asset tracking dashboards, geolocation integrations, routing models.</div>
+            <div class="project-detail-item"><strong>Results:</strong> Spotlight design selection at the Google Solution Challenge 2026.</div>
+          </div>
+
+          <div class="tech-badges">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">Generative AI</span>
+            <span class="tech-badge">Flask</span>
+            <span class="tech-badge">Geolocation</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/sonasaini9211-maker/ReliefAI" target="_blank" class="btn-small-primary">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project 3: AI Chat Assistant -->
+      <div class="project-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="project-image-container">
+          <img src="ai_neural_net.png" alt="AI Chat Assistant">
+        </div>
+        <div class="project-card-content">
+          <h3>3. AI Chat Assistant</h3>
+          <p class="project-summary">Designed and implemented an intelligent chatbot interface featuring chat memory persistence, custom temperature sliders, and text document parsers.</p>
+          
+          <div class="project-details-grid">
+            <div class="project-detail-item"><strong>Challenge:</strong> Standard LLM APIs lack user-defined configuration and history bounds.</div>
+            <div class="project-detail-item"><strong>Solution:</strong> Session state management coupled with custom hyperparameter controls.</div>
+            <div class="project-detail-item"><strong>Features:</strong> Parameter sliders (temperature, tokens), memory controls, attachment uploads.</div>
+            <div class="project-detail-item"><strong>Results:</strong> Enabled modular local session states and customized response styles.</div>
+          </div>
+
+          <div class="tech-badges">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">Generative AI</span>
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">JavaScript</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/sonasaini9211-maker/ai-chat-assistant" target="_blank" class="btn-small-primary">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project 4: Crop Disease Detection -->
+      <div class="project-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="project-image-container">
+          <img src="ai_workspace_bg.png" alt="Crop Disease Detection">
+        </div>
+        <div class="project-card-content">
+          <div class="project-badge-container">
+            <span class="tech-badge badge-team"><i class="fa-solid fa-users"></i> Team Project</span>
+          </div>
+          <h3>4. AI-Based Crop Disease Detection</h3>
+          <p class="project-summary">Co-developed an AI-powered Crop Disease Detection and Farm Management System as part of a collaborative team project.</p>
+          
+          <div class="project-details-grid">
+            <div class="project-detail-item"><strong>My Contribution:</strong> Assisted in model development, trained/tested CNN layers using TensorFlow, and integrated the predictions with the Flask web backend.</div>
+            <div class="project-detail-item"><strong>Challenge:</strong> Unidentified crop diseases causing rapid yield depreciation for local farms.</div>
+            <div class="project-detail-item"><strong>Solution:</strong> Custom CNN classification model trained on diverse botanical leaf datasets.</div>
+            <div class="project-detail-item"><strong>Results:</strong> Highly precise automated disease classification rates and treatment guides.</div>
+          </div>
+
+          <div class="tech-badges">
+            <span class="tech-badge">TensorFlow</span>
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">OpenCV</span>
+            <span class="tech-badge">Flask</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Khushveer13/SADIMS" target="_blank" class="btn-small-primary" title="Repository maintained by the project team.">
+              <i class="fa-brands fa-github"></i> Team GitHub
+            </a>
+          </div>
+          <p class="repo-caption" style="font-size: 11px; color: var(--text-secondary); margin-top: 8px; opacity: 0.8; display: flex; align-items: center; gap: 5px;"><i class="fa-solid fa-circle-info"></i> Repository maintained by the project team.</p>
+        </div>
+      </div>
+      
+      <!-- Project 5: House Price Prediction -->
+      <div class="project-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="project-image-container">
+          <img src="ai_neural_net.png" alt="House Price Prediction">
+        </div>
+        <div class="project-card-content">
+          <h3>5. House Price Prediction</h3>
+          <p class="project-summary">Developed a machine learning regression model analyzing property dimensions and location parameters to predict house pricing.</p>
+          
+          <div class="project-details-grid">
+            <div class="project-detail-item"><strong>Challenge:</strong> Inefficient market evaluation algorithms leading to pricing errors.</div>
+            <div class="project-detail-item"><strong>Solution:</strong> Feature engineering pipeline integrated with Random Forest models.</div>
+            <div class="project-detail-item"><strong>Features:</strong> Data cleaning scripts, correlation heatmaps, model evaluation plots.</div>
+            <div class="project-detail-item"><strong>Results:</strong> Achieved approximately 98% R² forecasting accuracy on validation splits.</div>
+          </div>
+
+          <div class="tech-badges">
+            <span class="tech-badge">Scikit-Learn</span>
+            <span class="tech-badge">Pandas</span>
+            <span class="tech-badge">NumPy</span>
+            <span class="tech-badge">Jupyter</span>
+          </div>
+          <div class="project-actions">
+            <span class="btn-small-secondary disabled-repo" style="opacity: 0.6; cursor: not-allowed; display: inline-flex; align-items: center; gap: 5px;">
+              <i class="fa-solid fa-code-branch"></i> Repo Coming Soon
+            </span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project 6: Student Result Management System -->
+      <div class="project-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="project-image-container">
+          <img src="ai_workspace_bg.png" alt="Student Result Management System">
+        </div>
+        <div class="project-card-content">
+          <h3>6. Student Result Management System</h3>
+          <p class="project-summary">Designed and implemented a relational database dashboard for school administrators to organize records, grades, and digital reports.</p>
+          
+          <div class="project-details-grid">
+            <div class="project-detail-item"><strong>Challenge:</strong> Slow processing speeds and records vulnerabilities in manual systems.</div>
+            <div class="project-detail-item"><strong>Solution:</strong> SQL schemas and normalized relation models connected to Flask backend.</div>
+            <div class="project-detail-item"><strong>Features:</strong> Administrative portals, score entry forms, report card builders.</div>
+            <div class="project-detail-item"><strong>Results:</strong> Secured database transactions and eliminated paperwork dependency.</div>
+          </div>
+
+          <div class="tech-badges">
+            <span class="tech-badge">MySQL</span>
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">Flask</span>
+            <span class="tech-badge">Bootstrap</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/sonasaini9211-maker/Student-Result-Management-System" target="_blank" class="btn-small-primary">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project 7: Portfolio Website -->
+      <div class="project-card glass-panel spotlight-card tilt-card reveal-item">
+        <div class="project-image-container">
+          <img src="ai_neural_net.png" alt="Portfolio Website">
+        </div>
+        <div class="project-card-content">
+          <h3>7. Portfolio Website</h3>
+          <p class="project-summary">Designed and implemented a futuristic interactive AI portfolio displaying project case studies, certifications, and public GitHub contributions.</p>
+          
+          <div class="project-details-grid">
+            <div class="project-detail-item"><strong>Challenge:</strong> Traditional portfolios lack dynamic UI elements and look static.</div>
+            <div class="project-detail-item"><strong>Solution:</strong> Interactive Awwwards-style UI utilizing particle systems and card tilts.</div>
+            <div class="project-detail-item"><strong>Features:</strong> 3D perspective tilts, custom cursor trails, FormSubmit AJAX, parallax.</div>
+            <div class="project-detail-item"><strong>Results:</strong> Fully responsive glassmorphic portfolio built without heavy frameworks.</div>
+          </div>
+
+          <div class="tech-badges">
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">Vanilla JS</span>
+            <span class="tech-badge">SEO</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/sonasaini9211-maker/portfolio-website" target="_blank" class="btn-small-primary">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. Learning Journey Timeline Section -->
+  <section id="journey" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">CHRONOLOGY</span>
+      <h2>Learning <span>Journey</span></h2>
+      <p>A timeline of my milestones and growth as a Computer Science Engineering student.</p>
+    </div>
+    
+    <div class="journey-timeline-container">
+      <!-- Milestone 1 -->
+      <div class="journey-node glass-panel spotlight-card reveal-item">
+        <div class="journey-header">
+          <h4>🎓 B.Tech CSE Started</h4>
+          <span class="journey-year">2023</span>
+        </div>
+        <p class="journey-text">
+          Started B.Tech Computer Science Engineering at Parul Institute of Technology, establishing a foundational base in mathematical computation and software design principles.
+        </p>
+      </div>
+      
+      <!-- Milestone 2 -->
+      <div class="journey-node glass-panel spotlight-card reveal-item">
+        <div class="journey-header">
+          <h4>💻 Python & DSA Fundamentals</h4>
+          <span class="journey-year">2023 - 2024</span>
+        </div>
+        <p class="journey-text">
+          Learned Python programming fundamentals and began structured Data Structures & Algorithms practice to refine problem-solving capacity.
+        </p>
+      </div>
+      
+      <!-- Milestone 3 -->
+      <div class="journey-node glass-panel spotlight-card reveal-item">
+        <div class="journey-header">
+          <h4>🤖 Machine Learning & Early Projects</h4>
+          <span class="journey-year">2024</span>
+        </div>
+        <p class="journey-text">
+          Explored Machine Learning fundamentals. Developed the Student Result Management System and the House Price Prediction model using regression algorithms.
+        </p>
+      </div>
+      
+      <!-- Milestone 4 -->
+      <div class="journey-node glass-panel spotlight-card reveal-item">
+        <div class="journey-header">
+          <h4>🌱 Agro & Assistant AI Development</h4>
+          <span class="journey-year">2024 - 2025</span>
+        </div>
+        <p class="journey-text">
+          Co-developed the AI-Based Crop Disease Detection & Farm Management System. Designed an interactive AI Chat Assistant with memory controls using LLM integration.
+        </p>
+      </div>
+      
+      <!-- Milestone 5 -->
+      <div class="journey-node glass-panel spotlight-card reveal-item">
+        <div class="journey-header">
+          <h4>🚀 AI Career Agent & ReliefAI</h4>
+          <span class="journey-year">2025 - 2026</span>
+        </div>
+        <p class="journey-text">
+          Co-developed the AI Career Agent using Flask and Generative AI APIs. Built ReliefAI, a collaborative response utility for the Google Solution Challenge Build with AI Hackathon.
+        </p>
+      </div>
+      
+      <!-- Milestone 6 -->
+      <div class="journey-node glass-panel spotlight-card reveal-item">
+        <div class="journey-header">
+          <h4>🏆 Google Hackathon & Current Studies</h4>
+          <span class="journey-year">2026</span>
+        </div>
+        <p class="journey-text">
+          Participated in the Google Solution Challenge 2026 Build with AI. Currently studying Generative AI, Large Language Models (LLMs), Advanced Machine Learning, and active Open Source Development.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. Certifications Section -->
+  <section id="certifications" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">CREDENTIALS</span>
+      <h2>Certifications</h2>
+      <p>Formal credentials and workshops completed in AI/ML, Cloud, and Software Engineering.</p>
+    </div>
+    
+    <div class="certs-timeline-container">
+      <div class="cert-timeline-card glass-panel spotlight-card reveal-item">
+        <div class="cert-time-badge"><i class="fa-solid fa-award"></i></div>
+        <div class="cert-time-content">
+          <span class="cert-time-date">May 2026</span>
+          <h4>Generative AI Developer Workshop</h4>
+          <p>Google Cloud & Generative AI Academy</p>
+        </div>
+      </div>
+      
+      <div class="cert-timeline-card glass-panel spotlight-card reveal-item">
+        <div class="cert-time-badge"><i class="fa-solid fa-award"></i></div>
+        <div class="cert-time-content">
+          <span class="cert-time-date">Dec 2025</span>
+          <h4>Machine Learning Specialization</h4>
+          <p>Coursera / Stanford Online</p>
+        </div>
+      </div>
+      
+      <div class="cert-timeline-card glass-panel spotlight-card reveal-item">
+        <div class="cert-time-badge"><i class="fa-solid fa-award"></i></div>
+        <div class="cert-time-content">
+          <span class="cert-time-date">Oct 2025</span>
+          <h4>AWS Academy Graduate – Cloud Foundations</h4>
+          <p>AWS Academy</p>
+        </div>
+      </div>
+      
+      <div class="cert-timeline-card glass-panel spotlight-card reveal-item">
+        <div class="cert-time-badge"><i class="fa-solid fa-award"></i></div>
+        <div class="cert-time-content">
+          <span class="cert-time-date">Aug 2025</span>
+          <h4>IBM Artificial Intelligence Fundamentals</h4>
+          <p>IBM Developer Skills Network</p>
+        </div>
+      </div>
+      
+      <div class="cert-timeline-card glass-panel spotlight-card reveal-item">
+        <div class="cert-time-badge"><i class="fa-solid fa-award"></i></div>
+        <div class="cert-time-content">
+          <span class="cert-time-date">Jul 2025</span>
+          <h4>Deloitte Australia Data Analytics Job Simulation</h4>
+          <p>Forage / Deloitte Australia</p>
+        </div>
+      </div>
+      
+      <div class="cert-timeline-card glass-panel spotlight-card reveal-item">
+        <div class="cert-time-badge"><i class="fa-solid fa-award"></i></div>
+        <div class="cert-time-content">
+          <span class="cert-time-date">May 2025</span>
+          <h4>Modern Frontend Development</h4>
+          <p>Parul University</p>
+        </div>
+      </div>
+      
+      <div class="cert-timeline-card glass-panel spotlight-card reveal-item">
+        <div class="cert-time-badge"><i class="fa-solid fa-award"></i></div>
+        <div class="cert-time-content">
+          <span class="cert-time-date">Mar 2025</span>
+          <h4>Design & Analysis of Algorithms</h4>
+          <p>CodeTantra / Parul University</p>
+        </div>
+      </div>
+
+      <div class="cert-timeline-card glass-panel spotlight-card reveal-item">
+        <div class="cert-time-badge"><i class="fa-solid fa-award"></i></div>
+        <div class="cert-time-content">
+          <span class="cert-time-date">Jan 2025</span>
+          <h4>NPTEL – Computer Networks and Internet Protocol</h4>
+          <p>IIT / NPTEL</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13. Achievements Section -->
+  <section id="achievements" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">RECOGNITION</span>
+      <h2>Achievements</h2>
+      <p>Competitions, hackathons, and academic milestones achieved during my B.Tech studies.</p>
+    </div>
+    
+    <div class="achievements-card-grid">
+      <div class="achieve-card glass-panel spotlight-card tilt-card reveal-item">
+        <span class="achieve-number">#1</span>
+        <h3>Google Solution Challenge</h3>
+        <p>Participated in the Build with AI Hackathon 2026, developing ReliefAI to coordinate resources.</p>
+      </div>
+      
+      <div class="achieve-card glass-panel spotlight-card tilt-card reveal-item">
+        <span class="achieve-number">7+</span>
+        <h3>AI Systems Built</h3>
+        <p>Independently developed 7 core machine learning and generative AI web tools from scratch.</p>
+      </div>
+      
+      <div class="achieve-card glass-panel spotlight-card tilt-card reveal-item">
+        <span class="achieve-number">Live</span>
+        <h3>ReliefAI Deployment</h3>
+        <p>Integrated real-time geocoding APIs and deployed disaster routing tools onto public cloud platforms.</p>
+      </div>
+      
+      <div class="achieve-card glass-panel spotlight-card tilt-card reveal-item">
+        <span class="achieve-number">Fest</span>
+        <h3>Technical Festivals</h3>
+        <p>Represented Parul University CSE student teams in Projections 2024 tech festival competitions.</p>
+      </div>
+      
+      <div class="achieve-card glass-panel spotlight-card tilt-card reveal-item">
+        <span class="achieve-number">Code</span>
+        <h3>Coding Competitions</h3>
+        <p>Participated actively in college-wide algorithmic coding tournaments and technical quizzes.</p>
+      </div>
+
+      <div class="achieve-card glass-panel spotlight-card tilt-card reveal-item">
+        <span class="achieve-number">Hack</span>
+        <h3>Hackathons</h3>
+        <p>Engineered full-stack responsive web applications under compressed design and development sprints.</p>
+      </div>
+
+      <div class="achieve-card glass-panel spotlight-card tilt-card reveal-item">
+        <span class="achieve-number">100%</span>
+        <h3>Continuous Learning</h3>
+        <p>Constantly studying and writing projects with Large Language Models (LLMs), RAG, and prompt engineering.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 14. GitHub Showcase -->
+  <section id="github" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">ACTIVITY</span>
+      <h2>GitHub <span>Contributions</span></h2>
+      <p>My public development activity and repository metrics.</p>
+    </div>
+    
+    <div class="github-container glass-panel spotlight-card reveal-item">
+      <div class="github-stats-grid">
+        <div class="git-stat-card">
+          <i class="fa-solid fa-code-commit"></i>
+          <span class="git-stat-num">300+</span>
+          <h4>Commits This Year</h4>
+        </div>
+        <div class="git-stat-card">
+          <i class="fa-solid fa-code-pull-request"></i>
+          <span class="git-stat-num">12+</span>
+          <h4>PRs Merged</h4>
+        </div>
+        <div class="git-stat-card">
+          <i class="fa-solid fa-star"></i>
+          <span class="git-stat-num">25+</span>
+          <h4>Stars Received</h4>
+        </div>
+        <div class="git-stat-card">
+          <i class="fa-solid fa-folder-open"></i>
+          <span class="git-stat-num">7</span>
+          <h4>AI Repositories</h4>
+        </div>
+      </div>
+
+      <div class="github-repos-showcase">
+        <h3 class="repos-title">Featured Repositories</h3>
+        <div class="github-repos-grid">
+          <div class="git-repo-card glass-panel spotlight-card tilt-card">
+            <div class="repo-header">
+              <i class="fa-regular fa-folder-open"></i>
+              <a href="https://github.com/VivekKumar-Git-Hub/ImpactProject" target="_blank">AI-Career-Agent</a>
+            </div>
+            <p>Collaboratively built ATS resume analyzer and learning roadmap generator using Generative AI.</p>
+            <div class="repo-meta">
+              <span><i class="fa-solid fa-circle python-dot"></i> Python</span>
+              <span><i class="fa-solid fa-star"></i> 12</span>
+              <span><i class="fa-solid fa-code-fork"></i> 4</span>
+            </div>
+          </div>
+          <div class="git-repo-card glass-panel spotlight-card tilt-card">
+            <div class="repo-header">
+              <i class="fa-regular fa-folder-open"></i>
+              <a href="https://github.com/sonasaini9211-maker/ReliefAI" target="_blank">ReliefAI</a>
+            </div>
+            <p>Disaster response mapping and shelter prioritization coordinator.</p>
+            <div class="repo-meta">
+              <span><i class="fa-solid fa-circle python-dot"></i> Python</span>
+              <span><i class="fa-solid fa-star"></i> 8</span>
+              <span><i class="fa-solid fa-code-fork"></i> 2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="github-cta-box">
+        <p>I actively release all my code and project packages under open-source licenses.</p>
+        <a href="https://github.com/sonasaini9211-maker" target="_blank" class="btn-primary">
+          <i class="fa-brands fa-github"></i> Visit My GitHub Profile
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 15. Resume Highlights -->
+  <section id="resume-highlights" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">SUMMARY</span>
+      <h2>Resume Highlights</h2>
+      <p>A quick overview of what I bring to the table as a student developer.</p>
+    </div>
+    
+    <div class="highlights-grid">
+      <div class="highlight-item-card glass-panel spotlight-card tilt-card reveal-item">
+        <i class="fa-solid fa-circle-check hl-check"></i>
+        <h4>Core Programming</h4>
+        <p>Solid grasp of Python programming fundamentals and implementation of data structures and algorithms.</p>
+      </div>
+      
+      <div class="highlight-item-card glass-panel spotlight-card tilt-card reveal-item">
+        <i class="fa-solid fa-circle-check hl-check"></i>
+        <h4>AI Integrations</h4>
+        <p>Experienced in integrating Generative AI models and LLM APIs inside web platforms and Flask backends.</p>
+      </div>
+      
+      <div class="highlight-item-card glass-panel spotlight-card tilt-card reveal-item">
+        <i class="fa-solid fa-circle-check hl-check"></i>
+        <h4>Database & Dev Tools</h4>
+        <p>Comfortable designing relational schema tables in MySQL and managing document storage inside MongoDB.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 16. Recruiter CTA Section -->
+  <section class="recruiter-cta-section reveal">
+    <div class="recruiter-cta-container glass-panel">
+      <div class="recruiter-cta-content">
+        <h3>Interested in my student developer projects or qualifications?</h3>
+        <p>I am looking for student developer internships or entry-level AI/ML roles where I can contribute and expand my skill set.</p>
+        <div class="recruiter-cta-buttons">
+          <a href="#contact" class="btn-primary">
+            <i class="fa-solid fa-envelope"></i> Get In Touch
+          </a>
+          <a href="./Soniya_Saini_Resume.pdf" download="Soniya_Saini_Resume.pdf" class="btn-secondary">
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 17. Contact Section -->
+  <section id="contact" class="section reveal">
+    <div class="section-header">
+      <span class="section-tag">CONNECTION</span>
+      <h2>Get In <span>Touch</span></h2>
+      <p>Have an internship opportunity, project idea, or just want to say hi?</p>
+    </div>
+    
+    <div class="contact-grid">
+      <div class="contact-left glass-panel spotlight-card reveal-item">
+        <div>
+          <h3>Contact Info</h3>
+          <p>Feel free to reach out via email or connect with me on social platforms.</p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-info">
+                <h4>Email</h4>
+                <a href="mailto:soniyasaini2209@gmail.com">soniyasaini2209@gmail.com</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-info">
+                <h4>Location</h4>
+                <p>Sikar, Rajasthan, India</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-socials">
+          <a href="https://github.com/sonasaini9211-maker" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/soniya-saini-6a48bb340" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:soniyasaini2209@gmail.com" class="social-btn"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      
+      <div class="contact-right glass-panel spotlight-card reveal-item">
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <input type="text" id="form-name" name="from_name" class="form-input" placeholder=" " required />
+            <label for="form-name" class="form-label">Your Name</label>
+          </div>
+          
+          <div class="form-group">
+            <input type="email" id="form-email" name="from_email" class="form-input" placeholder=" " required />
+            <label for="form-email" class="form-label">Your Email</label>
+          </div>
+          
+          <div class="form-group">
+            <textarea id="form-message" name="message" class="form-input" placeholder=" " required></textarea>
+            <label for="form-message" class="form-label">Your Message</label>
+          </div>
+          
+          <button type="submit" id="form-submit-btn" class="btn-primary btn-shimmer btn-form-submit">
+            <span><i class="fa-solid fa-paper-plane"></i> Send Message</span>
+            <div class="form-spinner" id="form-spinner"></div>
+          </button>
+          
+          <div class="form-status" id="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 18. Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <a href="#home" class="logo">SONIYA <span>SAINI</span></a>
+        <p class="tagline">Student Developer & AI/ML Enthusiast</p>
+        <p class="desc">Building intelligent systems and solving real-world challenges through data science and software engineering.</p>
+      </div>
+      
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="./Soniya_Saini_Resume.pdf" download="Soniya_Saini_Resume.pdf">Resume</a></li>
+      </ul>
+      
+      <div class="footer-socials">
+        <a href="https://github.com/sonasaini9211-maker" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/soniya-saini-6a48bb340" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:soniyasaini2209@gmail.com" class="social-btn"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Soniya Saini. All rights reserved. Designed for Google Solution Challenge & Student Innovation.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
